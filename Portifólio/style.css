@@ -1,0 +1,108 @@
+/* Reset margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* Estilos para o corpo da página */
+body {
+    font-family: 'Arial', sans-serif; /* Define a fonte do corpo */
+    background-color: #f9f9f9;/* Cor de fundo da página */
+    color: #333;
+}
+/* Container que envolve o conteúdo */
+.container {
+    margin: 0 auto; /* Centraliza o conteúdo */
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza o texto dentro do container */
+    color: aliceblue;
+}
+/* Estilos para o cabeçalho */
+header {
+    background-color: #6996F0;  /* Cor de fundo do cabeçalho */
+    padding: 20px 0;
+}
+
+
+/* Estilo para a foto de perfil */
+.profile-photo {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%; /* Torna a foto circular */
+    margin-top: 20px;
+    object-fit: cover; /* Garante que a imagem cubra a área sem distorcer */
+}
+
+/* Menu de navegação */
+nav {
+    background-color: #333;
+    padding: 10px 0; /* Espaçamento interno */
+    position: sticky; /* Fixa o menu no topo */
+    top: 0; /* Isso vai fazer o menu fixar no topo da página */
+    z-index: 1; /* Garante que o menu fique sobre outros elementos */
+}
+/* Estilo para a lista de links do menu */
+
+nav ul {
+    list-style-type: none; /* Remove os marcadores da lista */
+    text-align: center;  /* Centraliza os itens da lista */
+}
+/* Estilo para os itens da lista do menu */
+nav ul li {
+    display: inline; /* Exibe os itens da lista em linha */
+    margin: 0 20px; /* Espaçamento horizontal entre os itens */
+}
+/* Estilo para os links do menu */
+nav ul li a {
+    color: white;  /* Cor dos links */
+    text-decoration: none; /* Remove o sublinhado dos links */
+}
+a:hover {
+    color: #6996F0; /* Cor do texto ao passar o mouse */
+}
+/* Estilo para as seções da página */
+section {
+    padding-top: 100px; /* Espaçamento superior para as seções */
+}
+/* Estilo para os títulos das seções */
+section h2 {
+    margin-bottom: 10px; /* Espaçamento inferior */
+    color: #5954F0;
+}
+/* Estilo para o rodapé */
+footer {
+    text-align: center; /* Centraliza o texto do rodapé */
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    bottom: 0; /* Posiciona o rodapé no final da tela */
+    width: 100%; /* Garante que o rodapé ocupe toda a largura */
+}
+
+
+ul {
+    list-style-position: inside;
+}
+
+/*  conteúdo principal da página */
+main{
+    padding-left: 25px; /* Espaçamento à esquerda do conteúdo principal */
+}
+
+
+/* Estilo para os botões */
+.button{
+    background-color: gray;  /* Cor de fundo inicial do botão */
+    padding: 15px 32px;
+    color: white;
+    border: none; /* Remove a borda do botão */
+    border-radius: 6px;  /* Bordas arredondadas */
+    text-align: center;
+    font-weight:bold;  /* Negrito no texto */
+    margin: 4px 2px;  /* Espaçamento ao redor do botão */
+}
+
+/* Estilo do botão quando o mouse passa por cima */
+.button:hover{
+    cursor: pointer; /* Muda o cursor para indicar que é clicável */
+}
